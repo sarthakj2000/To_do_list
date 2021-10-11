@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+@import 'antd/dist/antd.css';
+
+.header{
+  margin-left: 150px;
+  width: 80%;
+  background-color: aqua;
+  
+}
+.taskMarginleft{
+  width: 400px;
+  margin-left: 30%;
+
+}
+.site-page-header{
+  font-family: 'Permanent Marker', cursive;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background{
+  background-color: brown;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.ant-list-item-meta-description{
+  font-size:30px;
+  color:white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.ant-list-item-meta-title {
+  font-size:20px;
+  color:white;
 }
